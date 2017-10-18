@@ -66,12 +66,15 @@
     @Scripts.Render("~/bundles/jqueryval")
 
     <script>
+
+        //Callback Method
         function enableBtn() {
             document.getElementById("submit").disabled = false;
         }
 
+        //Disable Button on start
         $(document).ready(function () {
-            $("#submit").attr('disabled','true');
+            $("#submit").attr('disabled', 'true');
         });
     </script>
 
